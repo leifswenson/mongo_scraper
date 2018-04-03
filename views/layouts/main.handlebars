@@ -18,7 +18,21 @@
   </head>
   
   <body>
-  	{{{ body }}}
+    
+    {{!-- Navbar --}}
+    <nav class="navbar navbar-dark bg-dark mb-3">
+      <a class="navbar-brand">Mongo Scraper</a>
+      <form class="form-inline">
+        <button id ="scrape-button" class="btn btn-outline-success" type="button">New Scrape</button>
+      </form>
+    </nav>
+    
+    {{!-- Main Area --}}
+    <div class="container">
+      
+    	{{{ body }}}
+  	
+  	</div>
   
   	<!-- jQuery Library Reference -->
   	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
