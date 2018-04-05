@@ -2,6 +2,7 @@
 // ============================================================================
 var express = require("express");
 var exphbs = require("express-handlebars");
+var bodyParser = require("body-parser");
 var mongoose = require("mongoose");
 var request = require("request");
 var axios = require("axios");
@@ -38,7 +39,6 @@ app.set("view engine", "handlebars");
 
 // Body Parser
 // ============================================================================
-var bodyParser = require("body-parser");
 // Use body-parser for handling form submissions
 app.use(bodyParser.urlencoded({ extended: true }));
 
