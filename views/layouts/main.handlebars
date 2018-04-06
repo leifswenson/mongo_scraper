@@ -20,10 +20,10 @@
   <body>
     
     {{!-- Navbar --}}
-    <nav class="navbar navbar-dark bg-dark mb-3">
+    <nav class="navbar navbar-dark bg-dark mb-3 sticky-top">
       <a class="navbar-brand">NPR Mongo Scraper</a>
-      <form class="form-inline">
-        <button id ="scrape-button" class="btn btn-outline-success" type="button">New Scrape</button>
+      <form class="form-inline" action="/api/scrape" method="get">
+        <button id ="scrape-button" class="btn btn-outline-success" type="submit">New Scrape</button>
       </form>
     </nav>
     

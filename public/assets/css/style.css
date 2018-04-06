@@ -2,10 +2,12 @@
 
 
 .navbar-brand {
-    color: white;
+    color: rgba(37, 36, 36, .5);
     font-weight: bold;
 }
 
-.headline-div {
-    background-color: #7A9191;
+.headline-main {
+    background-color: rgb(128,128,128);
+    padding: 1em;
+    margin: 2em;
 }

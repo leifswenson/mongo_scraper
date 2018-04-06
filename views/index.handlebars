@@ -1,10 +1,17 @@
 
 
 {{#each headlines}}
-<div class="headline-div">
-  <ul>
-    <li><a href={{this.link}} target="blank">{{this.title}}</a></li>
-    <li>{{this.summary}}</li>
-  </ul>
-</div>
+  <div class="headline-main">
+    <div class="headline-title">
+      <h4>
+        <a href={{this.link}} target="blank">{{this.title}}</a>
+      </h4>
+      <hr>
+    </div>
+    <div class="headline-text">
+      <p>{{this.summary}}</p>
+    </div>
+    <button type="button" class="btn btn-primary note-button" data-id={{this._id}}>Note</button>
+    <button type="button" class="btn btn-danger delete-button" data-id={{this._id}}>Delete</button>
+  </div>
 {{/each}}
