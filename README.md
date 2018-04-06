@@ -2,7 +2,7 @@
 
 
 Deployed App
-https://murmuring-retreat-13004.herokuapp.com/
+https://limitless-spire-97116.herokuapp.com/
 
 ### Description
 NPR Mongo Scraper is a new app that scrapes the lates stories from NPR’s website and allows users to comment on the latest news.
